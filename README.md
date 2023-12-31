@@ -1,7 +1,7 @@
 # Rock Climbing Wall Timer
 PCB for a timer on a rock climbing wall. Could be used for other timer functions
 
-![video](Media/rock-climbing-wall.mp4)
+https://github.com/james-carl-git/rock-climbing-wall-timer/assets/78581339/d42f89ee-d3c8-4e2f-867b-dab42051f7c2
 
 I built a rock wall for my niece and nephew. This repo is for the PCB I created that acts as a timer to measure how long it takes to climb the wall and determine who climbed it the fastest if 2 people are racing. 
 
