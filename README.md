@@ -18,4 +18,5 @@ Notes:
 - I used illuminated buttons for an arcade game
 
 Known issues:
-The TLC5940 LED driver I used has a high idle current(couple ma) which would prevent you from running this on batteries. When I was debugging this issue I was supprised to find that the TLC5940 works even with its VCC pin floating and doesn't seem to draw as much current, although the batteries did not last as long as I was expecting so this needs to be investigated further. Easy solution would be to just power this from a wall wart which is what I ended up doing.
+
+The TLC5940 LED driver I used has a high idle current(couple ma) which would prevent you from running this on batteries. When I was debugging this issue I was supprised to find that the TLC5940 works even with its VCC pin floating and doesn't seem to draw as much current, although the batteries did not last as long as I was expecting so this needs to be investigated further. I added a jumper on the PCB to allow you to easily connect/disconnect VCC on the TLC5940. Easy solution would be to just power this from a wall wart which is what I ended up doing.
