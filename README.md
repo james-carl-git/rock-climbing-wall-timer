@@ -22,3 +22,8 @@ Notes:
 Known issues:
 
 The TLC5940 LED driver I used has a high idle current(couple ma) which would prevent you from running this on batteries. When I was debugging this issue I was surprised to find that the TLC5940 works even with its VCC pin floating and doesn't seem to draw as much current, although the batteries did not last as long as I was expecting so this needs to be investigated further. I added a jumper on the PCB to allow you to easily connect/disconnect VCC on the TLC5940. Easy solution would be to just power this from a wall wart which is what I ended up doing.
+![Screenshot 2023-12-30 235527](https://github.com/james-carl-git/rock-climbing-wall-timer/assets/78581339/7b23c1ab-d904-421c-b384-a610af2a126c)
+
+
+https://github.com/james-carl-git/rock-climbing-wall-timer/assets/78581339/c764d504-4ba1-4b2e-b260-3fb3670ae1da
+
