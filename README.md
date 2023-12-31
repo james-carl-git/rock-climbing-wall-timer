@@ -6,7 +6,7 @@ I built a rock wall for my niece and nephew. This repo is for the PCB I created 
 Features:
 - Simple PCB allows it to be easily hand soldered and you can use a CNC router to make it (this is what I did)
 - Designed to be powered by batteries so has low power draw
-- Buzzer/pizo speaker for an audible countdown before the timer starts (should be fimilar if you have played those popular karting video games)
+- Buzzer/pizo speaker for an audible countdown before the timer starts (should be familiar if you have played those popular karting video games)
 - 2x 7-segment LED arrays using 5mm LEDs, displays 0.0 to 9.9 seconds, and whole decimals after 10 seconds. 99s max time
 - Inputs and outputs for an illuminated start button and 2 end buttons
 
@@ -19,4 +19,4 @@ Notes:
 
 Known issues:
 
-The TLC5940 LED driver I used has a high idle current(couple ma) which would prevent you from running this on batteries. When I was debugging this issue I was supprised to find that the TLC5940 works even with its VCC pin floating and doesn't seem to draw as much current, although the batteries did not last as long as I was expecting so this needs to be investigated further. I added a jumper on the PCB to allow you to easily connect/disconnect VCC on the TLC5940. Easy solution would be to just power this from a wall wart which is what I ended up doing.
+The TLC5940 LED driver I used has a high idle current(couple ma) which would prevent you from running this on batteries. When I was debugging this issue I was surprised to find that the TLC5940 works even with its VCC pin floating and doesn't seem to draw as much current, although the batteries did not last as long as I was expecting so this needs to be investigated further. I added a jumper on the PCB to allow you to easily connect/disconnect VCC on the TLC5940. Easy solution would be to just power this from a wall wart which is what I ended up doing.
