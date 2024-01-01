@@ -18,6 +18,7 @@ Notes:
 - LEDs in each digit are 3 LEDs wired in series and depending on what LEDs you use the voltage needed may be higher than the max voltage of the ATMega328P. As a result I have 2 separate inputs for power supply, one for the LEDs in the segmented display and one for the logic and the other LEDs/buzzer...etc.
 - The current limiting resistors on the LEDs will be custom to what LEDs/supply voltage you choose.
 - I used illuminated buttons for an arcade game as inputs
+- Code is written in Arduino, I used the first Tlc5940 library by Paul Stoffregen when you search for 'tlc5940' in the library manager
 
 Known issues:
 
